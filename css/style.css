@@ -25,6 +25,18 @@ hr {
     margin: 100px auto;
 }
 
+a {
+    color: #9abaa5;
+    font-family: 'Merriweather';
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 .top_container {
      background-color: 	#E4F9F5;
      position: relative;
@@ -84,6 +96,7 @@ hr {
 
 .bottom-container {
     background-color: #E4F9F5;
+    padding: 50px 0 20px;
 }
 
 .skill-row {
@@ -148,4 +161,10 @@ hr {
     background-image: -o-linear-gradient(top, #99d4eb, #325463);
     background-image: linear-gradient(to bottom, #99d4eb, #325463);
     text-decoration: none;
+  }
+
+  .copyright {
+    font-size: 0.75rem;
+    color: #325463;
+    margin: 20px 0;
   }
