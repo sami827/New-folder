@@ -162,6 +162,10 @@ a:hover {
   /* Mobile enhancements from here */
 
   @media (max-width: 900px) {
+
+    .container-fluid {
+        padding: 0;
+    }
     .mountain {
         width: 100%;
     }
@@ -189,6 +193,11 @@ a:hover {
         position: relative;
         margin: 0 auto 10px;
         color: rgb(48, 98, 168);
+    }
+
+    .contact-me h3 {
+        width: 50%;
+        margin: auto;
     }
 
   }
