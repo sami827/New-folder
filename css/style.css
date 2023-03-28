@@ -107,21 +107,14 @@ a:hover {
 
 .selenium {
     width: 25%;
-    /* float: left; */
-    /* margin-right: 30px; */
-
 }
 
 .devops {
     width: 25%;
-    /* float: right; */
-    /* margin-left: 30px; */
 }
 
 .web_dev {
     width: 25%;
-    /* float: left; */
-    /* margin-right: 30px; */
 }
 
 .myself {
@@ -151,8 +144,51 @@ a:hover {
 
 }
 
+#apperance {
+    display: none;
+}
+
   .copyright {
     font-size: 0.75rem;
     color: #325463;
     margin: 20px 0;
+  }
+
+  .fa-laptop-code, .fa-bug, .fa-code-pull-request {
+    margin: auto 0;
+    color: rgb(48, 98, 168);
+  }
+
+  /* Mobile enhancements from here */
+
+  @media (max-width: 900px) {
+    .mountain {
+        width: 100%;
+    }
+
+    .top_cloud {
+        position: relative;
+    }
+
+    .top_container h2 {
+        width: 50%;
+        margin: auto;
+    }
+
+  
+    .fa-bug, .fa-laptop-code {
+        margin-bottom: 20px;
+    }
+
+    .fa-code-pull-request {
+        display: none;
+    }
+    
+    #apperance {
+        display: inline;
+        position: relative;
+        margin: 0 auto 10px;
+        color: rgb(48, 98, 168);
+    }
+
   }
