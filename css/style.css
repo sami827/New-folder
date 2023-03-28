@@ -7,7 +7,6 @@ body {
 }
 
 h1 {
-    margin-top: 0;
     color: #146C94;
     font-family: 'Alkatra';
     font-size: 4rem;
@@ -19,9 +18,9 @@ p {
 } 
 
 hr {
-    border: dotted lightslategray 6px;
+    border: solid lightslategray 3px;
     border-top: none;
-    width: 4%;
+    width: 6%;
     margin: 100px auto;
 }
 
@@ -119,7 +118,7 @@ a:hover {
 }
 
 .web_dev {
-    width: 250px;
+    width: 230px;
     float: left;
     margin-right: 30px;
 }
