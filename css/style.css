@@ -216,7 +216,23 @@ a:hover {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
   }
-  
+
+  /* Nav section */ 
+    #navbar {
+        text-align: center;
+        justify-content: center;
+        background-color: rgb(198, 244, 240);
+        font-family: 'Roboto';
+    }
+
+    .nav-item {
+        font-weight: 500;
+    }
+    .nav-item:hover {
+        text-decoration: none;
+        transition: 0.3s;
+    }   
+/* Nav end */
 
   /* Mobile enhancements from here */
 
