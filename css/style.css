@@ -282,4 +282,8 @@ a:hover {
     
     }
 
+    #navbar {
+        display: none;
+    }
+
   }
